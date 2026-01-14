@@ -1,3 +1,4 @@
+sed -i 's#https://downloads.immortalwrt.org#https://mirrors.pku.edu.cn/immortalwrt#g' repositories.conf
 #!/bin/bash
 # Log file for debugging
 source shell/custom-packages.sh
